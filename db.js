@@ -2,7 +2,7 @@ const MongoClient=require('mongodb').MongoClient;
 const ObjectID=require('mongodb').ObjectID;
 const assert=require("assert");
 const dbName = "crud_mongodb";
-const url = "mongodb://localhost:27017";
+const url = "mongodb+srv://Ganeshatlas:ganeshatlas@cluster0-l2jlg.mongodb.net/test?retryWrites=true&w=majority";
 const mongoOptions ={useNewUrlParser : true};
 const state={
     db:null
