@@ -5,7 +5,6 @@ const Joi = require('joi');
 const db = require("./db");
 const collection = "todo";
 const app = express();
-
 const schema = Joi.object().keys({
     todo : Joi.string().required()
 });
@@ -83,6 +82,6 @@ app.use((err,req,res,next)=>{
     });
 });
 
-        app.listen(3000,()=>{
+        app.listen(3000 || process.env.PORT,()=>{
              console.log('connected to database, app listening on port 3000');
         });

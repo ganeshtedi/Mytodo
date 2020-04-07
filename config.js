@@ -1,3 +1,3 @@
 module.exports={
-    dbUrl :"mongodb://localhost:27017/"
+    uri :"mongodb+srv://Ganeshatlas:tedi1234@cluster0-l2jlg.mongodb.net/test?retryWrites=true&w=majority "
 }
