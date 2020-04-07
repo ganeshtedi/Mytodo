@@ -12,18 +12,26 @@
   "dependencies": {
     "body-parser": "^1.19.0",
     "ejs": "^3.0.2",
+    "express": "^4.17.1",
     "git": "^0.1.5",
     "joi": "^14.3.1",
     "mongo": "^0.1.0",
     "mongod": "^2.0.0",
     "mongodb": "^3.5.4",
     "mongoose": "^5.9.4",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "webpack": "^4.42.1"
   },
   "devDependencies": {
+    "fibers": "^4.0.2",
     "node-sass": "^4.13.1",
     "nodemon": "^2.0.2",
+    "sass": "^1.26.3",
     "sass-loader": "^8.0.2"
   },
+  "repository" : {
+    "type" : "git",
+    "url" : "http://github.com/npm/express.git"
+    },
   "description": ""
 }
