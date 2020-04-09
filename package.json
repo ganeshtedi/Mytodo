@@ -34,7 +34,7 @@
     "url": "http://github.com/npm/express.git"
   },
   "engines": {
-    "node": "0.X"
+    "node": "12.14.1"
   },
   "description": ""
 }
