@@ -9,7 +9,7 @@ const state={
 };
 //const client = new MongoClient(url);
 client.connect(function(err) {
-    //assert.equal(null, err);
+   assert.equal(null, err);
     console.log("Connected successfully to server");
   
     state.db = client.db(dbName);
@@ -17,6 +17,7 @@ client.connect(function(err) {
 const getPrimaryKey=(_id)=>{
     return ObjectID(_id);
 }
+
 const getDB=()=>{
     return state.db;
 }

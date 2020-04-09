@@ -1,13 +1,13 @@
 {
   "name": "todo",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["heroku"],
+  "author": "none",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
@@ -32,6 +32,9 @@
   "repository": {
     "type": "git",
     "url": "http://github.com/npm/express.git"
+  },
+  "engines": {
+    "node": "0.X"
   },
   "description": ""
 }
