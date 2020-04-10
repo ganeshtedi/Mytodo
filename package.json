@@ -6,7 +6,9 @@
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["heroku"],
+  "keywords": [
+    "heroku"
+  ],
   "author": "none",
   "license": "ISC",
   "dependencies": {
@@ -31,7 +33,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/npm/express.git"
+    "url": "https://github.com/ganeshtedi/Mytodo.git"
   },
   "engines": {
     "node": "12.14.1"
