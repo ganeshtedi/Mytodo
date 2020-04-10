@@ -2,7 +2,7 @@ const MongoClient = require('mongodb').MongoClient;
 const ObjectID=require('mongodb').ObjectID;
 const assert=require("assert");
 const dbName = "crud_mongodb";
-const uri = require('./config').uri;
+const uri = "mongodb+srv://Ganeshatlas:ganeshatlas@cluster0-l2jlg.mongodb.net/test?retryWrites=true&w=majority";
 const client = new MongoClient(uri, { useNewUrlParser: true , useUnifiedTopology: true });
 const state={
     db:null
