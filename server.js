@@ -81,6 +81,6 @@ app.use((err,req,res,next)=>{
         }
     });
 });
-        app.listen(5000 || process.env.PORT,()=>{
+        app.listen(3000 || process.env.PORT,()=>{
              console.log('connected to database, app listening on ${PORT} ');
         });
