@@ -11,8 +11,8 @@ const schema = Joi.object().keys({
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
-app.use(express.static(__dirname + '/public'));
-
+app.use(express.static(__dirname + '/public/css'));
+app.use(express.static(__dirname + '/public/images'));
 app.get('/',(req,res)=>{
     res.sendFile(path.join(__dirname,'/views/index.ejs'));
 });
@@ -81,7 +81,6 @@ app.use((err,req,res,next)=>{
         }
     });
 });
-
         app.listen(5000 || process.env.PORT,()=>{
-             console.log('connected to database, app listening on port 3000');
+             console.log('connected to database, app listening on ${PORT} ');
         });
