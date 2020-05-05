@@ -17,6 +17,7 @@ app.get('/',(req,res)=>{
     res.sendFile(path.join(__dirname,'/views/index.ejs'));
 });
 
+
 // read
 app.get('/getTodos',(req,res)=>{
     db.getDB().collection(collection).find({}).toArray((err,documents)=>{
